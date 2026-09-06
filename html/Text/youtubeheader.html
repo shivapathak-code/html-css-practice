@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>header</title>
+  <style>
+    .header
+    {
+      height:50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left-section{
+      background-color: lightblue;
+      width: 200px;
+    }
+    .middle-section{
+      background-color: lightpink;
+      flex: 1;
+      max-width: 500px;
+      margin-left: 70px;
+      margin-right: 30px;
+    }
+    .right-section{
+      background-color: lightblue;
+       width: 200px;
+    }
+  </style>
+</head>
+<body>
+    <div class = "header">
+      <div class = "left-section">
+      left-section
+      </div>
+      <div class = "middle-section">
+        <input type = "text" placeholder="Serach anything">
+      </div>
+      <div class = right-section>
+        right-section
+      </div>
+    </div>
+</body>
+</html>

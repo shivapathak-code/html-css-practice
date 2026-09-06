@@ -1,0 +1,32 @@
+.p1{
+  margin-top:1px;
+  font-family: Arial;
+  margin-bottom: 0;
+  color:grey
+}
+.input{
+  margin-top: 4px;
+  height:26px;
+  width:280px;
+  border-radius: 2px;
+  border-color: grey;
+  border-style: solid;
+  margin-bottom: 0;
+}
+.p2{
+  margin-top:15px;
+  font-family: Arial;
+  font-size: 14px;
+  color:grey;
+  margin-bottom:0;
+}
+.btn{
+  margin-top: 12px;
+  height:44px;
+  width:300px;
+  border-radius:22px;
+  background-color: rgb(24, 79, 187);
+  border:none;
+  color:white;
+  font-size: 17px;
+}
